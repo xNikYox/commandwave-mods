@@ -9,9 +9,11 @@ Offizielle Mod-Quelle für [CommandWave](https://github.com/xNikYox/commandwave)
 | Mod | Inhalt |
 |---|---|
 | apps | Apps starten und schließen |
+| browser | Browser-Tabs: schließen (auch nach Namen), neu, wechseln, wiederherstellen (ab CommandWave 1.1) |
 | begruessung | Guten Morgen, Gute Nacht, Danke (nur mod.json) |
 | hilfe | „Was kannst du?“ |
-| medien | Lautstärke & Musik |
+| medien | Lautstärke |
+| musik | Lieder überspringen, Pause, „Was läuft gerade?“ – gezielt für Amazon Music, Spotify, Browser (ab CommandWave 1.1) |
 | system | Ordner, Windows-Einstellungen, PC sperren |
 | uhrzeit | Uhrzeit, Datum & Timer (Skript-Mod) |
 | webseiten | Webseiten öffnen |
