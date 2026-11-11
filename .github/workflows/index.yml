@@ -1,0 +1,26 @@
+# Nach jeder Änderung an den Mods die index.json neu erzeugen (CommandWave liest daraus Versionen + Prüfsummen)
+name: index.json
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["index.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node build-index.js
+      - name: index.json speichern
+        run: |
+          if git diff --quiet index.json; then echo "unverändert"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898+github-actions[bot]@users.noreply.github.com"
+          git add index.json
+          git commit -m "index.json aktualisiert"
+          git push

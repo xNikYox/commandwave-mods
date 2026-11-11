@@ -1,0 +1,128 @@
+{
+  "mods": [
+    {
+      "id": "apps",
+      "version": "1.0.0",
+      "name": "Apps starten und schließen",
+      "description": "Startet Programme per Sprache: „Öffne die App Editor“, „Starte den Rechner“, „Schließe Paint“. Weitere Apps einfach unten bei slots → app ergänzen. Tipp: Kennt die Spracherkennung ein Wort nicht (z. B. Discord), schreibt man es, wie es klingt („disk kord“).",
+      "path": "apps",
+      "script": false,
+      "files": [
+        {
+          "path": "mod.json",
+          "sha256": "c89996b2840d9c89064e7183743ca5390cebdf2383b703d54a5fe3c53a89d9d9"
+        }
+      ]
+    },
+    {
+      "id": "begruessung",
+      "version": "1.0.0",
+      "name": "Begrüßung",
+      "description": "„Guten Morgen“, „Gute Nacht“, „Danke“ – Beispiel für eine einfache Mod nur mit mod.json.",
+      "path": "begruessung",
+      "script": false,
+      "files": [
+        {
+          "path": "mod.json",
+          "sha256": "7e1b7995d30205a949530182de1098c2ea6fe09b60cc0c47f1282f855c626631"
+        }
+      ]
+    },
+    {
+      "id": "hilfe",
+      "version": "1.0.0",
+      "name": "Hilfe",
+      "description": "„Was kannst du?“ – zählt die geladenen Mods auf.",
+      "path": "hilfe",
+      "script": true,
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "c5c3c5ae6e403383873425c80921b65c6693f786d1e0d0bf2d99176989ffba3e"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "92e84d495f2b2c39e31fc2b436b997e775b6f308ee25f07aa250a44919296fc6"
+        }
+      ]
+    },
+    {
+      "id": "medien",
+      "version": "1.0.0",
+      "name": "Lautstärke & Musik",
+      "description": "„Lauter“, „Leiser“, „Ton aus“, „Pause“, „Nächstes Lied“ – funktioniert mit Spotify, YouTube im Browser und den meisten Playern.",
+      "path": "medien",
+      "script": false,
+      "files": [
+        {
+          "path": "mod.json",
+          "sha256": "5135b319b78aa1f4ebd003a15e54a5bbdd365b9c5e206f7d7873e98e2f903508"
+        }
+      ]
+    },
+    {
+      "id": "system",
+      "version": "1.0.0",
+      "name": "Windows & Ordner",
+      "description": "Ordner öffnen („Öffne Downloads“), Windows-Einstellungen („Öffne die Bluetooth Einstellungen“), PC sperren.",
+      "path": "system",
+      "script": false,
+      "files": [
+        {
+          "path": "mod.json",
+          "sha256": "3d9fbb1497549f21f7a00044c7414c4d1d9889913875f2a190658e6ffd0336d1"
+        }
+      ]
+    },
+    {
+      "id": "uhrzeit",
+      "version": "1.0.0",
+      "name": "Uhrzeit, Datum & Timer",
+      "description": "Beispiel für eine Skript-Mod mit eigener Logik (main.js): „Wie spät ist es?“, „Welcher Tag ist heute?“, „Stelle einen Timer auf fünf Minuten“.",
+      "path": "uhrzeit",
+      "script": true,
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "970d9afc17ba569d476adca518ad640d8ff45b0458a91ed69b6397d6023c6539"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "cd46ed63967bf19f8f995a0bd3af8bc33dfa874c9ff9f22d3e9b9f31debdb783"
+        }
+      ]
+    },
+    {
+      "id": "webseiten",
+      "version": "1.0.0",
+      "name": "Webseiten öffnen",
+      "description": "„Öffne YouTube“, „Geh auf Wikipedia“ – öffnet die Seite im Standard-Browser. Eigene Seiten bei slots → seite ergänzen.",
+      "path": "webseiten",
+      "script": false,
+      "files": [
+        {
+          "path": "mod.json",
+          "sha256": "d5e8928e9688419d66db0859017c429364cb13a7cfb41f113adcaaa51b5d8ffc"
+        }
+      ]
+    },
+    {
+      "id": "wuerfel",
+      "version": "1.0.0",
+      "name": "Würfel & Münze",
+      "description": "„Würfle“, „Wirf eine Münze“, „Nenne eine Zahl zwischen eins und zehn“, „Gib mir eine zufällige Zahl“ – Beispiel für eine Skript-Mod aus dem Mod-Repo.",
+      "path": "wuerfel",
+      "script": true,
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "f805d5b27cb9a1a2ca46bee864ed0d047c29567bcdd22f1fa2bea5a3c160204c"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "867cd844e16a488e58ee56db531e9a0c4cc49e650f1c7e206023d973f4225209"
+        }
+      ]
+    }
+  ]
+}

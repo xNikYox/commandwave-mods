@@ -1,0 +1,12 @@
+{
+  "id": "begruessung",
+  "name": "Begrüßung",
+  "version": "1.0.0",
+  "author": "CommandWave",
+  "description": "„Guten Morgen“, „Gute Nacht“, „Danke“ – Beispiel für eine einfache Mod nur mit mod.json.",
+  "commands": [
+    { "phrases": ["guten morgen", "(hallo|hi) assistent"], "say": "Guten Morgen! Was kann ich für dich tun?" },
+    { "phrases": ["gute nacht"], "say": "Gute Nacht und schlaf gut!" },
+    { "phrases": ["danke [schön]", "vielen dank"], "say": "Gern geschehen!" }
+  ]
+}

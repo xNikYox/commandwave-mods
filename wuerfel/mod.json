@@ -1,0 +1,8 @@
+{
+  "id": "wuerfel",
+  "name": "Würfel & Münze",
+  "version": "1.0.0",
+  "author": "CommandWave",
+  "description": "„Würfle“, „Wirf eine Münze“, „Nenne eine Zahl zwischen eins und zehn“, „Gib mir eine zufällige Zahl“ – Beispiel für eine Skript-Mod aus dem Mod-Repo.",
+  "main": "main.js"
+}
