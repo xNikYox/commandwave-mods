@@ -1,20 +1,6 @@
 {
   "mods": [
     {
-      "id": "apps",
-      "version": "1.0.0",
-      "name": "Apps starten und schließen",
-      "description": "Startet Programme per Sprache: „Öffne die App Editor“, „Starte den Rechner“, „Schließe Paint“. Weitere Apps einfach unten bei slots → app ergänzen. Tipp: Kennt die Spracherkennung ein Wort nicht (z. B. Discord), schreibt man es, wie es klingt („disk kord“).",
-      "path": "apps",
-      "script": false,
-      "files": [
-        {
-          "path": "mod.json",
-          "sha256": "c89996b2840d9c89064e7183743ca5390cebdf2383b703d54a5fe3c53a89d9d9"
-        }
-      ]
-    },
-    {
       "id": "begruessung",
       "version": "1.0.0",
       "name": "Begrüßung",
@@ -25,120 +11,6 @@
         {
           "path": "mod.json",
           "sha256": "7e1b7995d30205a949530182de1098c2ea6fe09b60cc0c47f1282f855c626631"
-        }
-      ]
-    },
-    {
-      "id": "browser",
-      "version": "1.0.0",
-      "name": "Browser-Tabs",
-      "description": "„Schließe den Tab“, „Schließe den YouTube Tab“, „Schließe alle Amazon Tabs“, „Neuer Tab“, „Nächster Tab“, „Tab wiederherstellen“ – für Chrome, Edge, Firefox, Brave und Opera. Tipp: Namen, die die Spracherkennung nicht kennt, stehen in Lautschrift („red it“ = Reddit) – gesucht wird trotzdem der richtige Tab.",
-      "path": "browser",
-      "script": true,
-      "files": [
-        {
-          "path": "main.js",
-          "sha256": "0abc4c4aa5b3fb81ce27c666534ff348c92d4397ca8412da923cdbbaa81ff2d0"
-        },
-        {
-          "path": "mod.json",
-          "sha256": "58e0acfcdd585e4d64e4ec6306ac8254f8a21e14e8b7fca59f16152ad757b08a"
-        }
-      ]
-    },
-    {
-      "id": "hilfe",
-      "version": "1.0.0",
-      "name": "Hilfe",
-      "description": "„Was kannst du?“ – zählt die geladenen Mods auf.",
-      "path": "hilfe",
-      "script": true,
-      "files": [
-        {
-          "path": "main.js",
-          "sha256": "c5c3c5ae6e403383873425c80921b65c6693f786d1e0d0bf2d99176989ffba3e"
-        },
-        {
-          "path": "mod.json",
-          "sha256": "92e84d495f2b2c39e31fc2b436b997e775b6f308ee25f07aa250a44919296fc6"
-        }
-      ]
-    },
-    {
-      "id": "medien",
-      "version": "1.1.0",
-      "name": "Lautstärke",
-      "description": "„Lauter“, „Leiser“, „Ton aus“. Lieder überspringen, Pause und „Was läuft gerade?“ macht jetzt die Mod „Musik steuern“.",
-      "path": "medien",
-      "script": false,
-      "files": [
-        {
-          "path": "mod.json",
-          "sha256": "3527acaac83d949218465e7e32a2dd1b7db81406161a6f04547b21c6431d700d"
-        }
-      ]
-    },
-    {
-      "id": "musik",
-      "version": "1.0.0",
-      "name": "Musik steuern",
-      "description": "„Nächstes Lied“, „Nächstes Lied in Amazon Music“, „Pause bei Spotify“, „Was läuft gerade?“ – über die Windows-Mediensteuerung, gezielt je App (Amazon Music, Spotify, Browser, Medienwiedergabe).",
-      "path": "musik",
-      "script": true,
-      "files": [
-        {
-          "path": "main.js",
-          "sha256": "bb44e2740d34519df4dd8e75e309a3d29ba06097ac47aea058978f6398298168"
-        },
-        {
-          "path": "mod.json",
-          "sha256": "03550e47f359ada7c4f761510c23f26ccc068910db6c61dc9c55e0d1bb9b305d"
-        }
-      ]
-    },
-    {
-      "id": "system",
-      "version": "1.0.0",
-      "name": "Windows & Ordner",
-      "description": "Ordner öffnen („Öffne Downloads“), Windows-Einstellungen („Öffne die Bluetooth Einstellungen“), PC sperren.",
-      "path": "system",
-      "script": false,
-      "files": [
-        {
-          "path": "mod.json",
-          "sha256": "3d9fbb1497549f21f7a00044c7414c4d1d9889913875f2a190658e6ffd0336d1"
-        }
-      ]
-    },
-    {
-      "id": "uhrzeit",
-      "version": "1.0.0",
-      "name": "Uhrzeit, Datum & Timer",
-      "description": "Beispiel für eine Skript-Mod mit eigener Logik (main.js): „Wie spät ist es?“, „Welcher Tag ist heute?“, „Stelle einen Timer auf fünf Minuten“.",
-      "path": "uhrzeit",
-      "script": true,
-      "files": [
-        {
-          "path": "main.js",
-          "sha256": "970d9afc17ba569d476adca518ad640d8ff45b0458a91ed69b6397d6023c6539"
-        },
-        {
-          "path": "mod.json",
-          "sha256": "cd46ed63967bf19f8f995a0bd3af8bc33dfa874c9ff9f22d3e9b9f31debdb783"
-        }
-      ]
-    },
-    {
-      "id": "webseiten",
-      "version": "1.0.1",
-      "name": "Webseiten öffnen",
-      "description": "„Öffne YouTube“, „Geh auf Wikipedia“ – öffnet die Seite im Standard-Browser. Eigene Seiten bei slots → seite ergänzen.",
-      "path": "webseiten",
-      "script": false,
-      "files": [
-        {
-          "path": "mod.json",
-          "sha256": "8243e7993b8734c4865d08e554fb3cf48e3c03723127602831f4ef7316e0960a"
         }
       ]
     },
@@ -157,6 +29,445 @@
         {
           "path": "mod.json",
           "sha256": "867cd844e16a488e58ee56db531e9a0c4cc49e650f1c7e206023d973f4225209"
+        }
+      ]
+    }
+  ],
+  "modsMinApp": [
+    {
+      "id": "apps",
+      "version": "1.1.0",
+      "name": "Apps starten und schließen",
+      "description": "Startet Programme per Sprache: „Öffne die App Editor“, „Starte den Rechner“, „Schließe Paint“. Weitere Apps einfach unten bei slots → app ergänzen. Tipp: Kennt die Spracherkennung ein Wort nicht (z. B. Discord), schreibt man es, wie es klingt („disk kord“). English: „Open Notepad“, „Start the calculator“, „Close Paint“.",
+      "path": "apps",
+      "script": false,
+      "minApp": "1.3.0",
+      "files": [
+        {
+          "path": "mod.json",
+          "sha256": "2fd08b6e2eb6c99581d6183ecd28a20fd95c69c16fb233a5a6f5ac461fa3ac4d"
+        }
+      ]
+    },
+    {
+      "id": "browser",
+      "version": "1.1.0",
+      "name": "Browser-Tabs",
+      "description": "„Schließe den Tab“, „Schließe den YouTube Tab“, „Schließe alle Amazon Tabs“, „Neuer Tab“, „Nächster Tab“, „Tab wiederherstellen“ – für Chrome, Edge, Firefox, Brave und Opera. Tipp: Namen, die die Spracherkennung nicht kennt, stehen in Lautschrift („red it“ = Reddit) – gesucht wird trotzdem der richtige Tab.",
+      "path": "browser",
+      "script": true,
+      "minApp": "1.3.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "6be8f2d28ef45a6b1f485cf5d518390f87879dba114816702fff686676e53c5f"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "21f15d8f960814eaffdc2e212a516e5027119b8dbe46f5b9d1b0864dae0e6806"
+        }
+      ]
+    },
+    {
+      "id": "dateien",
+      "version": "1.0.0",
+      "name": "Dateien suchen",
+      "description": "„Öffne die Datei Bewerbung“, „Suche die Datei Rechnung Telekom“ – sucht in Dokumente, Desktop, Downloads, Bilder und Musik (auch mit OneDrive) über den Windows-Suchindex. Ein klarer Treffer wird gleich geöffnet, sonst zeigt CommandWave die fünf besten – „Nummer zwei“ sagen oder anklicken. Ordner öffnen: „Zeig mir meine Downloads“. English: „Open the file invoice“.",
+      "path": "dateien",
+      "script": true,
+      "minApp": "2.0.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "ca21ab120695f494d471e86a8d48b176cb4dad02a3fbab99ab71a0e7566bf3b6"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "e8cbc226296933f20895a6005ab4c3fdcee604e328575c750dc9c2e4c0b009d6"
+        },
+        {
+          "path": "rank.js",
+          "sha256": "d77278d278f882ff5e306fcc3718df23533817e90907b34c5a8fd8409e7cf3b5"
+        },
+        {
+          "path": "search.js",
+          "sha256": "0eaf0a810c7e0562f4f69e1698d6d4593fca08b203b4f5d6779fda334e92cbc8"
+        }
+      ]
+    },
+    {
+      "id": "diktieren",
+      "version": "1.0.0",
+      "name": "Diktieren",
+      "description": "„Schreib was“ – CommandWave fragt „Was soll ich schreiben?“ und tippt den Text ins vorderste Fenster. Satzzeichen sprechen: „Komma“, „Punkt“, „Fragezeichen“, „neue Zeile“. English: „Type something“.",
+      "path": "diktieren",
+      "script": true,
+      "minApp": "1.6.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "0face8d67536362ff48143e71e301aa68fc13be4c39d8f5c7921b9a542386cb7"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "7f2b6b1d319b99276450370607a93e8bc4a87dc9993f4dcc39de4bc0a65f13c8"
+        }
+      ]
+    },
+    {
+      "id": "discord",
+      "version": "1.0.0",
+      "name": "Discord",
+      "description": "„Mikro stumm“, „Stummschaltung aufheben“, „Taub schalten“, „Taub aufheben“ – drückt die Tastenkürzel, die du einmal in Discord unter Einstellungen → Tastenbelegung festlegst (Standard: Strg + Umschalt + M und Strg + Umschalt + D, änderbar unter Einstellungen). English: „Discord mute“, „Deafen me on Discord“.",
+      "path": "discord",
+      "script": true,
+      "minApp": "2.0.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "23e45b388f1e2d15edafbf5a33d0ac910214c3090e619edf281c4cf9ab1506e9"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "f180db9dd9c0b1787d5a3371ed5f303cce4c71283c8815011d944f84d82d31de"
+        }
+      ]
+    },
+    {
+      "id": "erinnerungen",
+      "version": "1.1.0",
+      "name": "Erinnerungen",
+      "description": "„Erinnere mich in zehn Minuten“ oder „Erinnere mich um achtzehn Uhr dreißig“ – CommandWave fragt „Woran?“ und meldet sich dann mit Stimme und Benachrichtigung. Bleibt auch nach einem Neustart. „Welche Erinnerungen habe ich?“, „Lösche alle Erinnerungen“. English: „Remind me in ten minutes“.",
+      "path": "erinnerungen",
+      "script": true,
+      "minApp": "1.8.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "77ce16c6564a541136336ed9512b6c40fee8597b2d0ddbcf4b821e9de5c535e5"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "9e15d8ab0854c543719e3bd899464f3d6999d0eafaac2b783484d13e19ecf60d"
+        }
+      ]
+    },
+    {
+      "id": "fenster",
+      "version": "1.0.0",
+      "name": "Fenster",
+      "description": "Fenster per Sprache: „Minimiere das Fenster“, „Fenster nach links“, „Zeige den Desktop“, „Wechsle zu Spotify“. English: „Minimize the window“, „Snap the window left“, „Switch to Spotify“.",
+      "path": "fenster",
+      "script": true,
+      "minApp": "1.4.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "638a9f5fbf4e8116547e2750c34bff3cb71ef493b952522fb642ccb087db9e4c"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "00138662e495dbe2804dab106e89f7d40f533fd3beab353ae3d44e9e028628b4"
+        }
+      ]
+    },
+    {
+      "id": "hilfe",
+      "version": "1.3.0",
+      "name": "Hilfe",
+      "description": "„Was kannst du?“ – zählt die geladenen Mods auf.",
+      "path": "hilfe",
+      "script": true,
+      "minApp": "1.3.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "5e106471546ea71e20422e116c29b78baa1bf0c9d3b536371aeee4ddf2d9c734"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "4faad44b83a84aef5110eb46420f805e5a79183a3cf49ab714b8a3b67f6b5e12"
+        }
+      ]
+    },
+    {
+      "id": "lautstaerke",
+      "version": "1.0.0",
+      "name": "Lautstärke je App",
+      "description": "Lautstärke einzelner Programme wie im Windows-Lautstärkemixer: „Spotify leiser“, „Discord stumm“, „Chrome auf dreißig Prozent“, „Wie laut ist Spotify?“. English: „Turn Spotify down“, „Mute Discord“.",
+      "path": "lautstaerke",
+      "script": true,
+      "minApp": "1.6.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "d1f40231ccb87745b7bceadd4a15c1868be38b43c11607bbd28be123fff0a2e1"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "65e264a225d460979afb9792c8af6ef55afdff6ffedfd11bea6c3d910140e0be"
+        }
+      ]
+    },
+    {
+      "id": "medien",
+      "version": "1.2.0",
+      "name": "Lautstärke",
+      "description": "„Lauter“, „Leiser“, „Ton aus“. Lieder überspringen, Pause und „Was läuft gerade?“ macht jetzt die Mod „Musik steuern“.",
+      "path": "medien",
+      "script": false,
+      "minApp": "1.3.0",
+      "files": [
+        {
+          "path": "mod.json",
+          "sha256": "44c399fca2a52df09ec955c0df38d092c6921696d2cac086abeee2ba88f0af29"
+        }
+      ]
+    },
+    {
+      "id": "musik",
+      "version": "1.3.0",
+      "name": "Musik steuern",
+      "description": "„Nächstes Lied“, „Nächstes Lied in Amazon Music“, „Pause bei Spotify“, „Was läuft gerade?“ – über die Windows-Mediensteuerung, gezielt je App (Amazon Music, Spotify, Browser, Medienwiedergabe).",
+      "path": "musik",
+      "script": true,
+      "minApp": "1.8.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "4ff2cf2003c1bc73acc46c7df72a7baa6cb55a6757a1b1b71f56b70c6162b478"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "12fb0dd2ae6f94bb9596ebdd023b179c89e52bc3a90048dd7c8a9b27fdafc226"
+        }
+      ]
+    },
+    {
+      "id": "notizen",
+      "version": "1.0.0",
+      "name": "Notizen",
+      "description": "„Merke dir: Milch kaufen“, „Notiere Zahnarzt am Dienstag“, „Was habe ich mir gemerkt?“, „Lösche Notiz Nummer zwei“, „Lösche alle Notizen“. Alle Notizen stehen auch im Fenster unter Notizen. English: „Remember …“, „Read my notes“.",
+      "path": "notizen",
+      "script": true,
+      "minApp": "2.0.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "eeb0cb8577058ee9cd522466251d7e9d0ce0366d8312ccffcce8fcd3d99927e7"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "a0d6e1e0ea20f941c341b016436acd0628fcce1cbd0f59a945b07d49a81a5799"
+        },
+        {
+          "path": "notes.js",
+          "sha256": "2e355f5b71bb615903be05c781b88d4392a516fabdac12124f365a04ebd4b9a9"
+        }
+      ]
+    },
+    {
+      "id": "obs",
+      "version": "1.0.0",
+      "name": "OBS Studio",
+      "description": "„Aufnahme starten“, „Aufnahme stoppen“, „Stream starten“, „Stream beenden“, „Szene Gaming“, „Aufnahme pausieren“, „Aufnahme fortsetzen“ – steuert OBS Studio über den eingebauten WebSocket-Server (OBS 28+, Werkzeuge → WebSocket-Servereinstellungen). Läuft nur auf diesem PC. English: „Start recording“, „Switch to scene Gaming“.",
+      "path": "obs",
+      "script": true,
+      "minApp": "2.0.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "d9799d93d08562a468a338812723af3cac78af03fabacb68240e06ebb64b300a"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "db74be7b93764afe5a50a85563abd67cd9a8e86c06fd371a177c5f3e6424b8a7"
+        },
+        {
+          "path": "obs.js",
+          "sha256": "0ea06ea9dbd97149062b3401dea854e27c657f21fc0c0a3d3414e70b4e5e99db"
+        }
+      ]
+    },
+    {
+      "id": "rechnen",
+      "version": "1.0.0",
+      "name": "Rechnen & Umrechnen",
+      "description": "„Was ist fünf mal sieben?“, „Zwanzig Prozent von achtzig“, oder „Rechne etwas“ → „Fünf Meilen in Kilometer“. Plus, minus, mal, geteilt durch, hoch, Wurzel, Prozent; Länge, Gewicht, Volumen, Tempo, Temperatur. English: „What is five times seven“, „Convert something“.",
+      "path": "rechnen",
+      "script": true,
+      "minApp": "1.6.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "0e6c10416f2b542e4e862dd7b3c1a5197225c02b99984800515c02b7b5fa392c"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "7de1035b0596a778f5bddd03c5d0ff32798b0713c3f8b168ca0f346c8b69e13d"
+        }
+      ]
+    },
+    {
+      "id": "routinen",
+      "version": "1.0.0",
+      "name": "Routinen",
+      "description": "Mehrere Schritte auf ein Wort: „Arbeitsmodus“, „Starte Routine Gaming Modus“, „Welche Routinen gibt es?“. Routinen legst du im Fenster unter Routinen an – auch zu einer Uhrzeit (z. B. Mo–Fr 8:00) oder beim Start von CommandWave. English: „Start routine …“, „What routines are there?“.",
+      "path": "routinen",
+      "script": true,
+      "minApp": "2.0.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "7770b7283c1cef27df92412cbd1ed50085c1d4a061135be826bc193f5a42252c"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "a8904580f41702dc1d3e2df3404d3c9d885b37ae7b0318ed0a6c788a51c1fe8a"
+        }
+      ]
+    },
+    {
+      "id": "screenshot",
+      "version": "1.0.0",
+      "name": "Screenshot",
+      "description": "„Mach einen Screenshot“ (ganzer Bildschirm) oder „Screenshot vom Fenster“ – gespeichert unter Bilder → Screenshots. „Zeig den letzten Screenshot“. English: „Take a screenshot“.",
+      "path": "screenshot",
+      "script": true,
+      "minApp": "1.7.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "f67881b006559b8c42e596efff75bb86a02364f54a1f72f4a2703cd2f0e540cf"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "5f3778d1475328ede06e4cec8bfba4513627b2780a3418548d33b9a788a0af38"
+        }
+      ]
+    },
+    {
+      "id": "spotify",
+      "version": "1.0.0",
+      "name": "Spotify",
+      "description": "„Spiel Coldplay auf Spotify“, „Spiele Lieder von SDP auf Spotify“, „Spiel die Playlist Chillout auf Spotify“ – sucht in der Spotify-App und startet das erste Ergebnis. „Lied gefällt mir“ speichert das laufende Lied (Alt + Umschalt + B). Weiter, Pause, nächstes Lied und „Was läuft gerade?“ gehen über die Mod „Musik steuern“ (z. B. „Pause bei Spotify“). English: „Play Coldplay on Spotify“.",
+      "path": "spotify",
+      "script": true,
+      "minApp": "2.0.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "1bf7edf173c5060106a83967009970b15a80bde9b622b9f2246122bc8316f920"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "d9b3b70830535cf586fd5f2fe59323d6c0e27a0b8f7b0e49f663c657cbce4a7c"
+        }
+      ]
+    },
+    {
+      "id": "suche",
+      "version": "1.1.0",
+      "name": "Suche",
+      "description": "Im Internet suchen: „Suche auf YouTube“ – CommandWave fragt „Was soll ich suchen?“ und öffnet die Ergebnisse. Auch Google, Amazon, Wikipedia, eBay, Google Maps, Spotify. English: „Search on YouTube“.",
+      "path": "suche",
+      "script": true,
+      "minApp": "1.8.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "06eb53def2c2f10233940c308be7258698c91fd4005cc1e1e8db49ef0a7ae7ad"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "762a1340a2fa398e851919d9efca2a331f83e4444b5fe1322c5d91a40e7bddfc"
+        }
+      ]
+    },
+    {
+      "id": "system",
+      "version": "1.2.0",
+      "name": "Windows & Ordner",
+      "description": "Ordner öffnen („Öffne Downloads“, „Zeig mir meine Bilder“ – auch wenn OneDrive die Ordner verschoben hat), Windows-Einstellungen („Öffne die Bluetooth Einstellungen“), PC sperren.",
+      "path": "system",
+      "script": false,
+      "minApp": "1.3.0",
+      "files": [
+        {
+          "path": "mod.json",
+          "sha256": "c29acb130e2c371473f749c14f2845be11fcd490f93964843961f22587e9a744"
+        }
+      ]
+    },
+    {
+      "id": "systeminfo",
+      "version": "1.0.0",
+      "name": "Systeminfo",
+      "description": "„Wie viel Akku habe ich?“, „Wie voll ist der Arbeitsspeicher?“, „Wie viel Speicherplatz ist frei?“, „Wie ausgelastet ist die CPU?“, „Wie lange läuft der PC schon?“, „Systemstatus“. English: „How much battery do I have?“, „System status“.",
+      "path": "systeminfo",
+      "script": true,
+      "minApp": "1.6.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "233f65f9d917436ec1cb5ab3a5021052943417bef637c13b9c5fa2c09133b4e0"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "a5417df9100dc2a4769f0f8d9308ac3fe3d3d1b2c3cde91926e46234735cec19"
+        }
+      ]
+    },
+    {
+      "id": "uhrzeit",
+      "version": "1.2.0",
+      "name": "Uhrzeit, Datum & Timer",
+      "description": "Beispiel für eine Skript-Mod mit eigener Logik (main.js): „Wie spät ist es?“, „Welcher Tag ist heute?“, „Stelle einen Timer auf fünf Minuten“.",
+      "path": "uhrzeit",
+      "script": true,
+      "minApp": "1.3.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "4ee02f0d22e17d0528916904261d5c9a0cdb75672028041db4097613e552a29e"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "3bc24b9e5f600082bb27587e87e9182e62e307bd95c96dda9526ade037728ab3"
+        }
+      ]
+    },
+    {
+      "id": "webseiten",
+      "version": "1.1.0",
+      "name": "Webseiten öffnen",
+      "description": "„Öffne YouTube“, „Geh auf Wikipedia“ – öffnet die Seite im Standard-Browser. Eigene Seiten bei slots → seite ergänzen.",
+      "path": "webseiten",
+      "script": false,
+      "minApp": "1.3.0",
+      "files": [
+        {
+          "path": "mod.json",
+          "sha256": "52606100782bc6eeefe2256a615129784d3b1c025062aa97c6b0f08cbbd30fc1"
+        }
+      ]
+    },
+    {
+      "id": "wecker",
+      "version": "1.0.0",
+      "name": "Wecker",
+      "description": "„Weck mich um sieben Uhr“ – zur Weckzeit spielt Amazon Music (oder die letzte Musik) leise weiter und wird langsam lauter; läuft keine Musik, ein sanfter Weckton. „Wecker aus“, „Schlummern“, „Welche Wecker habe ich?“. Der PC muss dafür an sein (nicht im Ruhezustand). English: „Wake me up at seven“.",
+      "path": "wecker",
+      "script": true,
+      "minApp": "1.7.0",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "eaed0c54301fda5d2a7e0eb63f733562c229e38a7f3a8857cc1eb183599b96b0"
+        },
+        {
+          "path": "mod.json",
+          "sha256": "2818df7b83fc8eb00269865eb5d9c0b01883bbf3562d0cb1f585b1d28e5fb7d5"
         }
       ]
     }
